@@ -1,0 +1,14 @@
+[
+    { "id":1,  "nome":"Mu", "casa":"Aries" },    
+    { "id":2,  "nome":"Aldebaran", "casa":"Touro" },    
+    { "id":3,  "nome":"Saga", "casa":"Gemeos" },    
+    { "id":4,  "nome":"Manigold", "casa":"Cancer" },    
+    { "id":5,  "nome":"Aiolia", "casa":"Leao" },    
+    { "id":6,  "nome":"Shaka", "casa":"Virgem" },    
+    { "id":7,  "nome":"Dohko", "casa":"Libra" },    
+    { "id":8,  "nome":"Milo", "casa":"Escorpião" },    
+    { "id":9,  "nome":"Aioros", "casa":"Sargitario" },    
+    { "id":10, "nome":"Shura", "casa":"Capricornio" },    
+    { "id":11, "nome":"Camus", "casa":"Aquario" },    
+    { "id":12, "nome":"Aphrodite", "casa":"Peixes" }
+]

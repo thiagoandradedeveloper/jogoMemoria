@@ -1,0 +1,80 @@
+:root{
+    --tamanho:140px;
+}
+body{
+    background: url('img/maxresdefault2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: absolute;
+    padding: 10px;
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+    margin: 0;
+    padding: 20px;
+    width: 100vw;
+    max-width: 100%;
+    box-sizing: border-box;
+
+    background-color: rgba(255, 255, 255, 0.4);
+    background-attachment: fixed;
+
+    z-index: 1;
+}
+.flipper .front img, .flipper .back img{
+    height: var(--tamanho);
+    width: var(--tamanho);
+    border: thin solid black;
+}
+.flipper {
+    width: var(--tamanho);
+    height: var(--tamanho);
+    position: relative;
+    perspective: 1000px;
+    display: inline-block;
+    margin: 10px;
+}
+.flipper .front, .flipper .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--tamanho);
+    height: var(--tamanho);
+    backface-visibility: hidden;
+    transition: transform 0.6s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flipper .front {
+    color: #fff;
+}
+.flipper .back {
+    transform: rotateY(180deg);
+}
+.esconder {
+    transform: rotateY(180deg);
+}
+.mostrar {
+    transform: rotateY(0deg);
+}
+#zerar, #ver{
+    position: relative;
+    width: 20%;
+    left: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    border: thin solid black;
+    background: gold;
+}
